@@ -30,7 +30,7 @@ function NotaFinal() {
     var notaFinal = "Você está aprovado por média.";
     elementoNotaFinal.innerHTML = notaFinal;
   } else {
-    notaNecessaria = 21 - (notaAv1 + notaAv2);
+    notaNecessaria = 10 - media;
     var elementoNotaFinal = document.getElementById("notaFinal");
     var notaFinal = "A nota que você precisa tirar é: " + notaNecessaria.toFixed(2);
     elementoNotaFinal.innerHTML = notaFinal;
